@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive ABCs of CSS</title>
+    <link rel="stylesheet" href="css/sheet.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Interactive ABCs of CSS Technology learning Website</h1>
+        <p>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</p>
+
+        <div id="letter-section">
+            <div class="letter-box" id="box-a">
+                <img src="assets/image/css-letter-a.png" alt="A for aspect-ratio" class="letter-image" id="image-a">
+                <button onclick="toggleVisibility('image-a', 'button-a')" id="button-a">A</button>
+            </div>
+            <div class="letter-box" id="box-b">
+                <img src="assets/image/css-letter-b.png" alt="B for border" class="letter-image" id="image-b">
+                <button onclick="toggleVisibility('image-b', 'button-b')" id="button-b">B</button>
+            </div>
+            <div class="letter-box" id="box-c">
+                <img src="assets/image/css-letter-c.png" alt="C for colors" class="letter-image" id="image-c">
+                <button onclick="toggleVisibility('image-c', 'button-c')" id="button-c">C</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="javaprog.js"></script>
+</body>
+</html>
